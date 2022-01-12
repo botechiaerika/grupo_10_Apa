@@ -62,6 +62,8 @@ ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
 - Por los clientes a los que apuntan.
 - Por la estética que presentan.
 - Por las funcionalidades implementadas.
+
+
 |**LINKs DE MERCADO**|
 |-|
 |https://www.motelguia.com.br/ |
