@@ -56,6 +56,28 @@ ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
 
 
 
+
+**Links Usados como Inspiracion del Proyecto esta basado en**
+- Por los productos o servicios que ofrecen.
+- Por los clientes a los que apuntan.
+- Por la estética que presentan.
+- Por las funcionalidades implementadas.
+|**LINKs DE MERCADO**|
+|-|
+|https://www.motelguia.com.br/ |
+|https://lafransa.com/ |
+|https://loob.es/ |
+|https://www.paplaza.com/ |
+|https://www.luxtal.es/love-hotel/ |
+|https://www.shingyoen.com/%E5%AE%A2-%E5%AE%A4 |
+|https://www.hotel-newberlin.de/de |
+
+**Conclusion de links de Mercado**
+El servicio ofrecido es descansar con tu pareja en un hotel por una noche. Cada servicio ofrece distintas temáticas en sus habitaciones según la insignia que cada hotel elige para la comodidad y confort  de sus clientes y al tipo de público que el hotel apunta.
+La estética que presenta es una temática, según la especialidad de cada hotel.
+Sus funcionalidades dependen del valor y categoría del hotel. Cada hotel tiene un confort de calidad, según su categoría, diferencial, ofrecido para el cliente, que se ve reflejado en el costo de la habitación y del propio hotel.
+
+
 #### c) **MISION APA :blue_heart: !** 
 >  :blue_heart: **Surge APA para facilitar lo placer diversion donde usuario solo tenga que concentrarse en esto sufrir STRESS para planear su momento de felicidad** :blue_heart:
 > **CONCLUSION** : que todos los perfiles analizados de los clienes gustarian de tener informacion de facil acceso con los principales puntos  de interes ___(Valor, conforto, opnion de otros usuarios, facilidad en reserva y opciones segun ubicacion)___ por lo que se ve viable el projecto en su publico y la area actuacion
