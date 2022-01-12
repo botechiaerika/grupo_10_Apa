@@ -10,8 +10,7 @@ El projecto APA se inicia como una ideia desarollada en el curso de desarollo we
 > Estudiante de medicina entusiasta del código, aprendiendo programación para arriesgarme para aplicar ideas que pueden ayudar en el mundo de las personas.  
 ---
 ## OVERVIEW Projecto APA
-**STATUS**: Building Process  
-- Consruction! :hammer:  - **SPRINT #01**
+**STATUS**: Building Process Consruction! :hammer:  - **SPRINT #01**
 
 **Contenido Actualizado - V: 1.0.0:**
 |##|Nombre|
