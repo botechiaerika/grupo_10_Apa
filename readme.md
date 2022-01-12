@@ -9,22 +9,32 @@ El projecto APA se inicia como una ideia desarollada en el curso de desarollo we
 ### *Erika Botechia*
 > Estudiante de medicina entusiasta del código, aprendiendo programación para arriesgarme para aplicar ideas que pueden ayudar en el mundo de las personas.  
 ---
-## OVERVIEW
+## OVERVIEW Projecto APA
 **STATUS**: Building Process  
 - Consruction! :hammer:  - **SPRINT #01**
 
 **Contenido Actualizado - V: 1.0.0:**
 |##|Nombre|
 |--|--|
-|**00**|Projecto APA!  + INTEGRANTES|
+|**00**|INTEGRANTESS|
 |**01**|OVERVIEW APA!  |
 |**02**|BRANDING|
 |**03**|WIREFRAMES|
 
 ---
-## OVERVIEW APA!
+
 ---
-___Luego conocer a la facilidad de APP de reservas en di versas ramas identificamos la carencia de una APP eficiente identificamos la carencia de una eficiente que concluya de forma eficiente y logrando abarcar todas expectativas de un usuario que usa la APP por lo que surge APA para facilitar el placer diversión donde usuario solo tenga que concentrarse en esto sufrir STRESS para planear su momento de felicidad___
+## 01. OVERVIEW APA
+---
+
+___Brinda contestar preguntas___
+1) ¿Qué productos o servicios brindará nuestro sitio? 
+2) ¿Quién será nuestra audiencia objetivo?
+3) ¿Cómo ajustaremos nuestra oferta a ese público?
+
+- Nuestro servicio brinda una opción para el público conocimiento de acceso a reservas para hoteles transitorios. 
+- Nuestra audiencia son los usuarios jóvenes y adultos millennials.
+- Ajustamos la oferta según el parámetro de lo que el usuario esté buscando, de esa forma él/ella puede elegir según su interés.
 
 
 ---
