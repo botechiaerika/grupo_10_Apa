@@ -33,7 +33,7 @@ ___Luego conocer a la facilidad de APP de reservas en di versas ramas identifica
 ___Luego conocer a la facilidad de APP de reservas en diversas ramas identificamos la carencia de una APP eficiente identificamos la carencia de una eficiente que concluya de forma eficiente y logrando abarcar todas expectativas de un usuario que usa la APP por lo que surge APA para facilitar el placer diversión donde usuario solo tenga que concentrarse en esto sufrir STRESS para planear su momento de felicidad___
 
 Banner + Logo Proyecto:
-![Banner projecto APA](i01_bannerAPAmd.png)
+![Banner projecto APA](img/i01_bannerAPAmd.png)
 
 #### a) **Creación del Nombre:** 
 Luego de pesquisar los nombres disponibles del mercado Argentino listados en la sección a seguir llegamos finalmente al nombre APA! que al hacer la referencia a una expresión popular entre todos Argentinos usamos la exclamación que refuerza el sentido de sorpresa positiva que buscamos en la experiencia del usuario con el portal además de la curiosidad que despierta y hace con que nuevos usuarios ingresen a pagina, mas allá de esto al usar un nombre que NO es estrictamente asociado al ramo principal podemos lograr 2 puntos positivos: 
@@ -50,9 +50,9 @@ ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
 
 |**Publico**|**Opnion en la Pesquisa**|
 |-|-|
-|![Avatar Pareja](i02_Avatar01.png)|**Pareja Joven 22 años** <br/>Estudian en una facultad pública de letras, y sus compañeros de facultad suelen ir con sus parejas a un hotel cercano en balvanera. Y si no recurren a los que están por la zona de su barrio.|
-| ![Avatar Mujer](i03_Avatar02.png)|**Mujer  - 26 años**</br>Trabaja como asesora comercial en una marca de indumentaria, y los fines de semana, sale con un amigo y de regreso, descansan en un hotel cercano a su casa,  donde ellos disfrutan y ya conocen al recepcionista, del hotel. |
-| ![Avaar Pareja Anonima](i04_Avatar03.png)|**Hombre - (32 años )** <br/> Trabaja en el área de servicios en un órgano público, y hace más de un año sale con su novia y quieren descansar en nuevos lugares que no conocen y hacer un recorrido, lo hacen hace más de tres meses y están muy satisfechos. |
+|![Avatar Pareja](img/i02_Avatar01.png)|**Pareja Joven 22 años** <br/>Estudian en una facultad pública de letras, y sus compañeros de facultad suelen ir con sus parejas a un hotel cercano en balvanera. Y si no recurren a los que están por la zona de su barrio.|
+| ![Avatar Mujer](img/i03_Avatar02.png)|**Mujer  - 26 años**</br>Trabaja como asesora comercial en una marca de indumentaria, y los fines de semana, sale con un amigo y de regreso, descansan en un hotel cercano a su casa,  donde ellos disfrutan y ya conocen al recepcionista, del hotel. |
+| ![Avaar Pareja Anonima](img/i04_Avatar03.png)|**Hombre - (32 años )** <br/> Trabaja en el área de servicios en un órgano público, y hace más de un año sale con su novia y quieren descansar en nuevos lugares que no conocen y hacer un recorrido, lo hacen hace más de tres meses y están muy satisfechos. |
 
 
 
@@ -64,13 +64,13 @@ ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
 
 > En esta parte se anexa el mockup las fotos del mockup, tambien enviados en png (la funcionalidad esta explicada a partir de las flechas con la funcion executada)
 
-####Esquema MOCKUPS 01
-![Esquema con MOCKUPS 01](i05_Mockups01.png)
+#### Esquema MOCKUPS 01
+![Esquema con MOCKUPS 01](img/i05_Mockups01.png)
 
 
-####Esquema MOCKUPS 01
-![Esquema con MOCKUPS 01](i06_Mockups02.png)
+#### Esquema MOCKUPS 01
+![Esquema con MOCKUPS 01](img/i06_Mockups02.png)
 
 
-####Esquema MOCKUPS 01
-![Esquema con MOCKUPS 01](i07_Mockups03.png)
+#### Esquema MOCKUPS 01
+![Esquema con MOCKUPS 01](img/i07_Mockups03.png)
