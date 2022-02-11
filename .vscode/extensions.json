@@ -7,6 +7,9 @@
 		"stackbreak.comment-divider",
 		"esbenp.prettier-vscode",
 		"hookyqr.beautify",
-		"michelemelluso.code-beautifier"
+		"michelemelluso.code-beautifier",
+		"cssho.vscode-svgviewer",
+		"ysemeniuk.emmet-live",
+		"FallenMax.mithril-emmet"
 	]
 }
