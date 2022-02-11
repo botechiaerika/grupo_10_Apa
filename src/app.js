@@ -19,5 +19,7 @@ app.listen(3030, function() => {
         res.sendFile(path.resolve(__dirname, '../views/user.html'));
     })
     app.use(express.static(path.resolve(__dirname, '../public/')));
+=======
+>>>>>>> Stashed changes
     console.log("Servidor LEVANTADO");
 });
