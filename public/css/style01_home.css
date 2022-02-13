@@ -1,28 +1,79 @@
-@import "../images/protruding-squares.svg"
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.bg-01{ background-color: gray;
-    background: url(../images/protruding-squares.svg);
-    background-repeat: repeat;
-    padding: 0px;
-    margin: 0px;}
+.bg-01 {
+  background-color: gray;
+  background: url(../images/protruding-squares.svg);
+  background-repeat: repeat;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  background: whitesmoke;
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: 95vw;
+  border-radius: 0 0 15px 15px;
+}
+
+.hero {
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #160351;
+  background-image: url(../images/bg_hero.svg);
+  background-repeat: repeat;
+  border-radius: 15px;
+  margin: 0px auto;
+  padding: auto;
+  align-content: center;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 1vh;
+  width: 90%;
+  margin: 5%;
+  height:100%;
+}
+
+.name{height: 57px;}
 
 
+.apa-name { color: color(srgb 1 0 0.777);
+}
 
+.image{
+  display: inline-block;
+  position: relative;
+ max-width: 340px;
+  width:  70%;
+  
+  max-height: 500px;
+  height: auto;
+  image-rendering:  auto;
+}
 
+.description{
+  margin: 1rem;
+}
+// Source mixins
+/*
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
 
+// Usage
 
-
-
-
-
-
-
-
-
-
-
-
-
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}
