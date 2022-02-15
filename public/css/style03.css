@@ -1,8 +1,19 @@
 @import "../images/wavey-fingerprint.svg";
-body {
-    background: rgba(215, 201, 201, 0.361);
-    background-image: url('../images/wavey-fingerprint.svg');
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(115, 90, 255);
+    border: 2px groove gray
+}
+
+.bg-01 {
+    background-color: gray;
+    background: url('../images/protruding-squares.svg');
     background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
