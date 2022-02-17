@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+let nodemon = require('nodemon')
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
@@ -17,12 +18,10 @@ app.get('/login', (req, res) => {
 app.get('/reservas', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../views/productCard.html'));
 })
-app.get('/user', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../views/user.html'));
+app.get('/miCuenta', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../views/account.html'));
 })
 app.use(express.static(path.resolve(__dirname, '../public/')));
 app.listen(3030, () => {
     console.log("Servidor LEVANTADO");
 });
-
-let nodemon = require('nodemon')

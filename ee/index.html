@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Easiest Way To Make Responsive Headers</title>
+<link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font: normal 16px sans-serif;
+	padding: 0 10%;
+	background: #eee;
+}
+
+body .container{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+/*	Header	*/
+
+header{
+	/* Enable flex mode. */
+	display: flex; 
+	/* Spread out the elements inside the header. */
+	justify-content: space-between;
+	/* Align items vertically in the center. */
+	align-items: center;
+
+	padding: 40px 100px;
+	color: #fff;
+	background-color: #488EAD;
+}
+
+.header-left{
+	font: normal 28px 'Fugaz One', cursive;
+}
+
+.header-left span{
+	color: #EAD314;
+}
+
+.header-center ul{
+	list-style: none;
+}
+
+.header-center ul li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.header-center ul li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.header-right button{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.header-right button:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/*	Main content	*/
+
+.main-content{
+	padding: 60px 100px;
+	background-color: #fff;
+    line-height: 1.5;
+    color: #444;
+}
+
+.main-content h2{
+	margin-bottom: 38px;
+}
+
+.main-content p{
+	margin: 30px 0;
+}
+
+
+.main-content .placeholder{
+	margin: 40px 0;
+	height:380px;
+	background-color: #e3e3e3;
+}
+
+
+/*	Media queries	*/
+
+@media (max-width: 1200px){
+	header{
+		padding: 40px 60px;
+	}
+
+	.main-content{
+		padding: 100px 60px;
+	}
+
+	body {
+	    padding: 0 5%;
+	}
+}
+
+@media (max-width: 1000px){
+	header{
+		/* Reverse the axis of the header, making it vertical. */
+		flex-direction: column;
+		/* Align items to the begining (the left) of the header. */
+		align-items: flex-start;
+	}
+
+	header > div{
+		margin: 12px 0;
+	}
+
+	.header-center ul li{
+		margin: 0 15px 0 0;
+	}
+
+}
+
+@media (max-width: 600px){
+	body {
+	    padding: 0 10px;
+	}
+
+	.header-left{
+		margin-top:0;
+	}
+
+	header {
+	    padding: 30px;
+	}
+
+	.main-content{
+		padding:30px;
+	}
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+	
+	<header>
+		<div class="header-left"><span>Cool</span>Logo</div>
+		<div class="header-center">
+			<ul>
+				<li><a href="#">Our products</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+		</div>
+		<div class="header-right"><button>Buy now</button></div>
+	</header>
+
+	<section class="main-content">
+		<h2>Header with three justify aligned sections</h2>
+		<p>Using the power of flexbox, the logo, links, and button of our header stay in their designated places, no matter the screen size. The <strong style="white-space: nowrap;">justify-content</strong> property offers a clean approach and allows us to align the section of the header without a hassle. No need for any floats, margins or crazy width calculations.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at congue urna, pellentesque faucibus justo. Integer a lorem a mauris suscipit congue luctus ut quam. Mauris pellentesque pellentesque mattis. In sed mi dignissim, faucibus elit at, rutrum odio. Mauris et velit magna. Maecenas iaculis eget sapien eu gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a egestas magna. Aenean tellus elit, aliquet at lacinia at, accumsan eget neque. Maecenas rutrum risus quis sem scelerisque sagittis. Quisque sit amet turpis lorem. </p>
+		<div class="placeholder"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at congue urna, pellentesque faucibus justo. Integer a lorem a mauris suscipit congue luctus ut quam. Mauris pellentesque pellentesque mattis. In sed mi dignissim, faucibus elit at, rutrum odio. Mauris et velit magna. Maecenas iaculis eget sapien eu gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a egestas magna. Aenean tellus elit, aliquet at lacinia at, accumsan eget neque. Maecenas rutrum risus quis sem scelerisque sagittis. Quisque sit amet turpis lorem. </p>
+	</section>
+
+</div>
+
+</body>
+</html>

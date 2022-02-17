@@ -1,0 +1,16 @@
+{
+    "name": "package.json",
+    "version": "1.0.0",
+    "description": "app quiz",
+    "main": "../src/app.js",
+    "scripts": {
+        "test": "npm run -test"
+    },
+    "keywords": [],
+    "author": "BotechiaErika",
+    "license": "ISC"
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+
+}

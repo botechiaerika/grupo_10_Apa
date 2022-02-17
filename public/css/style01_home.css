@@ -1,41 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu {
+  margin-top: 0px;
+  height: 100%;
+  width: 100vw;
+  border: 2px solid #e70c8f;
+  border-radius: 0 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(48, 1, 25, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  -webkit-border-radius: 0 0 15px 15px;
+  -moz-border-radius: 0 0 15px 15px;
+  -ms-border-radius: 0 0 15px 15px;
+  -o-border-radius: 0 0 15px 15px;
+}
+
+.dropdown-menu {
+  border: 1px solid #e70c8f;
+}
+
+.dropdown-divider {
+  color: #e70c8f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-01 {
-  background-color: gray;
-  background: url(../images/protruding-squares.svg);
+  background: black url(../images/bg02.svg);
   background-repeat: repeat;
-  padding: 0px;
-  margin: 0px;
 }
 
-.header {
-  background: whitesmoke;
-  display: block;
-  margin: auto;
-  height: 100%;
-  width: 95vw;
-  border-radius: 0 0 15px 15px;
+.menu {
+  background: rgb(190, 186, 186);
+}
+
+.apaBrand {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  color: #e70c8f;
+}
+
+.apaLink {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #e70c8f;
+}
+
+.nLink {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #060004;
+}
+
+.formMenu {
+  margin-left: 1rem;
 }
 
 .hero {
-  display: inline-block;
+  display: block;
   color: whitesmoke;
   background-color: #160351;
-  background-image: url(../images/bg_hero.svg);
+  background-image: url("../images/bg04.svg");
   background-repeat: repeat;
   border-radius: 15px;
-  margin: 0px auto;
+  padding: 2.5rem;
   padding: auto;
   align-content: center;
-  vertical-align: middle;
   text-align: center;
-  margin-top: 1vh;
-  width: 90%;
-  margin: 5%;
   height: 100%;
-  margin-bottom: 20px;
+  width: 100vw;
 }
 
 .name {
@@ -43,7 +90,9 @@
 }
 
 .apa-name {
-  color: color(srgb 1 0 0.777);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #e70c8f;
 }
 
 .image {
@@ -51,47 +100,31 @@
   position: relative;
   max-width: 340px;
   width: 70%;
-
   max-height: 500px;
   height: auto;
   image-rendering: auto;
 }
 
-.description {
-  margin: 1rem;
+.herod {
+  background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 90%;
+  transition: background-size 0.25s ease-in;
+  margin-bottom: 3rem;
+}
+
+.hero-d:hover {
+  background-size: 100% 88% !important;
 }
 
 .main {
   margin: 20px;
-  background-color: color(srgb 0.087 0.016 0.321);
-  background-image: url(../image/protuding-squares.svg);
+  background: #000000;
+  background-image: url(../image/bg02.svg);
   background-repeat: repeat;
-}
-
-// Source mixins
-/*
-// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
-@include media-breakpoint-up(xxl) { ... }
-
-// Usage
-
-// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
-.custom-class {
-  display: none;
-}
-@include media-breakpoint-up(sm) {
-  .custom-class {
-    display: block;
-  }
-}*/
-/* -------------------------FOOTER---------------- */
-
-body {
-  margin-top: 20px;
+  margin: 5px solid #160351;
+  border-radius: 15px;
 }
 
 .footer_area {
@@ -112,80 +145,6 @@ body {
   background-color: #d9eeec;
 }
 
-.footer_area .row .col,
-.footer_area .row .col-1,
-.footer_area .row .col-10,
-.footer_area .row .col-11,
-.footer_area .row .col-12,
-.footer_area .row .col-2,
-.footer_area .row .col-3,
-.footer_area .row .col-4,
-.footer_area .row .col-5,
-.footer_area .row .col-6,
-.footer_area .row .col-7,
-.footer_area .row .col-8,
-.footer_area .row .col-9,
-.footer_area .row .col-auto,
-.footer_area .row .col-lg,
-.footer_area .row .col-lg-1,
-.footer_area .row .col-lg-10,
-.footer_area .row .col-lg-11,
-.footer_area .row .col-lg-12,
-.footer_area .row .col-lg-2,
-.footer_area .row .col-lg-3,
-.footer_area .row .col-lg-4,
-.footer_area .row .col-lg-5,
-.footer_area .row .col-lg-6,
-.footer_area .row .col-lg-7,
-.footer_area .row .col-lg-8,
-.footer_area .row .col-lg-9,
-.footer_area .row .col-lg-auto,
-.footer_area .row .col-md,
-.footer_area .row .col-md-1,
-.footer_area .row .col-md-10,
-.footer_area .row .col-md-11,
-.footer_area .row .col-md-12,
-.footer_area .row .col-md-2,
-.footer_area .row .col-md-3,
-.footer_area .row .col-md-4,
-.footer_area .row .col-md-5,
-.footer_area .row .col-md-6,
-.footer_area .row .col-md-7,
-.footer_area .row .col-md-8,
-.footer_area .row .col-md-9,
-.footer_area .row .col-md-auto,
-.footer_area .row .col-sm,
-.footer_area .row .col-sm-1,
-.footer_area .row .col-sm-10,
-.footer_area .row .col-sm-11,
-.footer_area .row .col-sm-12,
-.footer_area .row .col-sm-2,
-.footer_area .row .col-sm-3,
-.footer_area .row .col-sm-4,
-.footer_area .row .col-sm-5,
-.footer_area .row .col-sm-6,
-.footer_area .row .col-sm-7,
-.footer_area .row .col-sm-8,
-.footer_area .row .col-sm-9,
-.footer_area .row .col-sm-auto,
-.footer_area .row .col-xl,
-.footer_area .row .col-xl-1,
-.footer_area .row .col-xl-10,
-.footer_area .row .col-xl-11,
-.footer_area .row .col-xl-12,
-.footer_area .row .col-xl-2,
-.footer_area .row .col-xl-3,
-.footer_area .row .col-xl-4,
-.footer_area .row .col-xl-5,
-.footer_area .row .col-xl-6,
-.footer_area .row .col-xl-7,
-.footer_area .row .col-xl-8,
-.footer_area .row .col-xl-9,
-.footer_area .row .col-xl-auto {
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .single-footer-widget {
   position: relative;
   z-index: 1;
@@ -194,11 +153,6 @@ body {
 .single-footer-widget .copywrite-text a {
   color: #747794;
   font-size: 1rem;
-}
-
-.single-footer-widget .copywrite-text a:hover,
-.single-footer-widget .copywrite-text a:focus {
-  color: #3f43fd;
 }
 
 .single-footer-widget .widget-title {
@@ -264,15 +218,4 @@ body {
   100% {
     left: 100%;
   }
-}
-
-ol li,
-ul li {
-  list-style: none;
-}
-
-ol,
-ul {
-  margin: 0;
-  padding: 0;
 }
