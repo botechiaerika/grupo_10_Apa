@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import "../font/font.css";
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -9,7 +8,7 @@
 
 .menu {
   margin-top: 0px;
-
+  height: 100%;
   width: 100vw;
   border: 2px solid #e70c8f;
   border-radius: 0 0 15px 15px;
@@ -37,7 +36,7 @@ body {
 }
 
 .bg-01 {
-  background: black url(../images/bg02.svg);
+  background: url("../images/bg04.svg");
   background-repeat: repeat;
 }
 
@@ -67,22 +66,81 @@ body {
 }
 
 .container {
-  padding-top: 2vh;
+  display: flex;
+  height: 100vh;
 }
-header {
-  background: #9aca40;
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  height: 85vh;
   width: 100vw;
-  margin-left: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex 0.4s ease;
+  position: relative;
+}
+
+.section .overlay {
+  background-color: rgba(255, 255, 255, 0.612);
+  width: 100%;
+  height: 90vh;
+  padding-top: 5vh;
+  position: absolute;
+  transition: background-color 0.8s ease;
+}
+
+.section .content {
+  z-index: 2;
+}
+
+.section:hover {
+  flex: 2;
+}
+
+.section:hover .overlay {
+  background-color: #14043c;
+}
+
+#marketing {
+  background-image: url(../images/index01.png);
+  background-position: cover;
+}
+
+.textIndex {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.apaColor {
+  color: #e70c8f;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  width: 80vw;
+  height: 90%;
+  margin: auto;
+  margin-top: 2em;
 }
 
 .contenedor-main {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
+  background: rgb(255, 255, 255);
+  padding: 2rem;
 }
 
 main {
-  background: #fff;
+  background: rgb(255, 255, 255);
   color: #424242;
-  padding: 20px 0;
 }
 
 aside {
@@ -134,26 +192,33 @@ grid.parent {
   grid-row-gap: 9px;
 }
 
-@media screen and (max-width: 420px) {
-  .menu {
-    height: 15vh;
-  }
-  .dropdown {
-    height: 30vh;
-  }
-  .div1 {
-    grid-area: 1 / 1 / 2 / 9;
-    background-color: rgb(146, 201, 5);
-    height: 90vh;
-  }
-  .div2 {
-    grid-area: 2 / 1 / 7 / 9;
-    background-color: rgb(87, 13, 13);
-    height: 90vh;
-  }
-  .div3 {
-    grid-area: 7 / 1 / 9 / 9;
-    background-color: rgb(75, 87, 13);
-    height: 60vh;
+.div1 {
+  grid-area: 1 / 1 / 2 / 9;
+  background-color: rgb(146, 201, 5);
+  height: 90vh;
+}
+.div2 {
+  grid-area: 2 / 1 / 7 / 9;
+  background-color: rgb(87, 13, 13);
+  height: 90vh;
+}
+.div3 {
+  grid-area: 7 / 1 / 9 / 9;
+  background-color: rgb(75, 87, 13);
+  height: 60vh;
+} /*
+@media (min-width: 576px) {
+  ...;
+}
+*/
+// Medium devices (tablets, 768px and up)
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  .slider01 {
+    background-image: url("../images/slider03.png");
   }
 }
+/*
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
