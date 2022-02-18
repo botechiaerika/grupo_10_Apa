@@ -105,11 +105,6 @@ body {
     background-color: #14043c;
 }
 
-#marketing {
-    background-image: url(../images/index01.png);
-    background-position: cover;
-}
-
 .textIndex {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
@@ -125,6 +120,11 @@ body {
 
 #technology {
     background-image: url(../images/index02.png);
+    background-position: cover;
+}
+
+#marketing {
+    background-image: url(../images/index01.png);
     background-position: cover;
 }
 

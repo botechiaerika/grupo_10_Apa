@@ -1,0 +1,95 @@
+@import "../font/font.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin-top: 0px;
+    height: 100%;
+    width: 100vw;
+    border: 2px solid #E70C8F;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(48, 1, 25, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+}
+
+.dropdown-menu {
+    border: 1px solid #E70C8F;
+}
+
+.dropdown-divider {
+    color: #E70C8F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-01 {
+    background: black url(../images/bg02.svg);
+    background-repeat: repeat;
+}
+
+.menu {
+    background: rgb(190, 186, 186);
+}
+
+.apaBrand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #E70C8F;
+}
+
+.apaLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #E70C8F;
+}
+
+.nLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #060004;
+}
+
+.bg-form {
+    background: url(../images/bgForm01.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 90vh;
+    margin-top: 2.5%;
+    padding-left: 1rem;
+    vertical-align: middle;
+    padding: 1.5rem;
+}
+
+.register-div {
+    padding-top: 20vh;
+    height: 55vh;
+    vertical-align: middle;
+    width: 300px;
+    text-align: center;
+}
+
+.placeholder {
+    width: 330px;
+    background: rgb(211, 215, 216);
+    border: 1.5px solid #0f000060;
+    box-sizing: border-box;
+    text-align: center;
+    height: 40px;
+    margin-top: 0.9rem;
+    text-align: center;
+    margin: auto;
+}

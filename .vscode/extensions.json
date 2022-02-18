@@ -10,6 +10,16 @@
 		"michelemelluso.code-beautifier",
 		"cssho.vscode-svgviewer",
 		"ysemeniuk.emmet-live",
-		"FallenMax.mithril-emmet"
+		"fallenmax.mithril-emmet",
+		"2gua.rainbow-brackets",
+		"oderwat.indent-rainbow",
+		"sachinb94.css-tree",
+		"ctc.vscode-tree-extension",
+		"binarybytes.snippets",
+		"wenfangdu.snippet-generator",
+		"mechatroner.rainbow-csv",
+		"ajanuw.bs5",
+		"christian-kohler.npm-intellisense",
+		"eliean.vscode-svn"
 	]
 }

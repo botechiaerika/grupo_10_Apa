@@ -1,224 +1,254 @@
 @import "../font/font.css";
 * {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
 }
 
 .menu {
-  margin-top: 0px;
-  height: 100%;
-  width: 100vw;
-  border: 2px solid #e70c8f;
-  border-radius: 0 0 15px 15px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(48, 1, 25, 0.3) 0px 7px 13px -3px,
-    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  -webkit-border-radius: 0 0 15px 15px;
-  -moz-border-radius: 0 0 15px 15px;
-  -ms-border-radius: 0 0 15px 15px;
-  -o-border-radius: 0 0 15px 15px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100vw;
+    border: 2px solid #e70c8f;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(48, 1, 25, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
 }
 
 .dropdown-menu {
-  border: 1px solid #e70c8f;
+    border: 1px solid #e70c8f;
 }
 
 .dropdown-divider {
-  color: #e70c8f;
+    color: #e70c8f;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .bg-01 {
-  background: url("../images/bg04.svg");
-  background-repeat: repeat;
+    background: url("../images/bg04.svg");
+    background-repeat: repeat;
 }
 
 .menu {
-  background: rgb(190, 186, 186);
+    background: rgb(190, 186, 186);
 }
 
 .apaBrand {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
-  font-size: 2.7rem;
-  color: #e70c8f;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #e70c8f;
 }
 
 .apaLink {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.7rem;
-  color: #e70c8f;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #e70c8f;
 }
 
 .nLink {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  color: #060004;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #060004;
 }
 
 .container {
-  display: flex;
-  height: 100vh;
+    display: flex;
+    height: 100vh;
 }
 
 .section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 5%;
-  height: 85vh;
-  width: 100vw;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  transition: flex 0.4s ease;
-  position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    height: 85vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: flex 0.4s ease;
+    position: relative;
 }
 
 .section .overlay {
-  background-color: rgba(255, 255, 255, 0.612);
-  width: 100%;
-  height: 90vh;
-  padding-top: 5vh;
-  position: absolute;
-  transition: background-color 0.8s ease;
+    background-color: rgba(255, 255, 255, 0.612);
+    width: 100%;
+    height: 90vh;
+    padding-top: 5vh;
+    position: absolute;
+    transition: background-color 0.8s ease;
 }
 
 .section .content {
-  z-index: 2;
+    z-index: 2;
 }
 
 .section:hover {
-  flex: 2;
+    flex: 2;
 }
 
 .section:hover .overlay {
-  background-color: #14043c;
+    background-color: #14043c;
 }
 
 #marketing {
-  background-image: url(../images/index01.png);
-  background-position: cover;
+    background-image: url(../images/index01.png);
+    background-position: cover;
 }
 
 .textIndex {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .apaColor {
-  color: #e70c8f;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    color: #e70c8f;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 header {
-  width: 80vw;
-  height: 90%;
-  margin: auto;
-  margin-top: 2em;
+    width: 80vw;
+    height: 90%;
+    margin: auto;
+    margin-top: 2em;
 }
 
 .contenedor-main {
-  margin-bottom: 1.5rem;
-  background: rgb(255, 255, 255);
-  padding: 2rem;
+    margin-bottom: 1.5rem;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
 }
 
 main {
-  background: rgb(255, 255, 255);
-  color: #424242;
+    background: rgb(255, 255, 255);
+    color: #424242;
 }
 
-aside {
-  background: #dee5e8;
-  padding: 60px 0;
-  color: #0d47a1;
+@import "../font/font.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    list-style-type: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+}
+
+.card,
+.card-header {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 1.2rem;
+}
+
+.card {
+    box-shadow: 0 2px 25px rgba(110, 130, 208, 0.18);
+}
+
+.btn-link {
+    width: 100%;
+    height: 60px;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+.card-body {
+    background: #e8eeff;
+}
+
+.btn-link:before {
+    width: 37px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+}
+
+.btn-link.collapsed:after {
+    widh: 100%;
+}
+
+.btn-link:before {
+    content: " ";
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+
+/ aside {
+    padding: 1rem;
+    background: #d0ffc9;
+    color: #101210;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+}
+
+.lista-user {
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 .widgets {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.widgets > div {
-  background: #2196f3;
-  color: #fff;
-  padding: 20px;
+.widgets>div {
+    background: #2196f3;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 footer {
-  padding: 20px 0;
-  background: #1e1e1e;
+    padding: 20px 0;
+    background: #1e1e1e;
 }
 
 hr {
-  border: 0;
-  height: 30px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px 0 0 0;
-  border-radius: 20px;
+    border: 0;
+    height: 30px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
 }
 
 hr:before {
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: 31px;
-  border-style: solid;
-  border-color: #070505;
-  border-width: 0 0 2px 0;
-  border-radius: 20px;
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: 31px;
+    border-style: solid;
+    border-color: #070505;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
 }
-
-grid.parent {
-  display: block;
-  grid-template-columns: repeat(3, 1fr) 0 repeat(4, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 9px;
-}
-
-.div1 {
-  grid-area: 1 / 1 / 2 / 9;
-  background-color: rgb(146, 201, 5);
-  height: 90vh;
-}
-.div2 {
-  grid-area: 2 / 1 / 7 / 9;
-  background-color: rgb(87, 13, 13);
-  height: 90vh;
-}
-.div3 {
-  grid-area: 7 / 1 / 9 / 9;
-  background-color: rgb(75, 87, 13);
-  height: 60vh;
-} /*
-@media (min-width: 576px) {
-  ...;
-}
-*/
-// Medium devices (tablets, 768px and up)
-
-// Large devices (desktops, 992px and up)
-@media (max-width: 992px) {
-  .slider01 {
-    background-image: url("../images/slider03.png");
-  }
-}
-/*
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/

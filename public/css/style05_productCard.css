@@ -1,37 +1,76 @@
+@import "../font/font.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin-top: 0px;
+    height: 100%;
+    width: 100vw;
+    border: 2px solid #E70C8F;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(48, 1, 25, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+}
+
+.dropdown-menu {
+    border: 1px solid #E70C8F;
+}
+
+.dropdown-divider {
+    color: #E70C8F;
+}
+
 body {
-    background: #ddd;
-    min-height: 100vh;
-    vertical-align: middle;
-    display: flex;
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    font-weight: bold
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-grid.parent {
-    display: block;
-    grid-template-columns: repeat(3, 1fr) 0 repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 9px;
+.bg-01 {
+    background: black url(../images/bg02.svg);
+    background-repeat: repeat;
 }
 
-@media screen and (max-width: 420px) {
-    .div1 {
-        grid-area: 1 / 1 / 2 / 9;
-        background-color: rgb(146, 201, 5);
-        height: 90vh;
-    }
-    .div2 {
-        grid-area: 2 / 1 / 7 / 9;
-        background-color: rgb(87, 13, 13);
-        height: 90vh;
-    }
-    .div3 {
-        grid-area: 7 / 1 / 9 / 9;
-        background-color: rgb(75, 87, 13);
-        height: 20vh;
-    }
+.menu {
+    background: rgb(190, 186, 186);
 }
 
-\ <main class="grid"><grid class="parent"><div class="div1"><h1>helo d1</h1></div><div class="div2"><h1>helo d1</h1></div><div class="div3"><h1>helo d1</h1></div><div class="div4"><h1>helo d1</h1></div></div></main>
+.apaBrand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #E70C8F;
+}
+
+.apaLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #E70C8F;
+}
+
+.nLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #060004;
+}
+
+.remove_item {
+    color: #a50707;
+}
+
+.agregar_favoritos {
+    color: green;
+}
+
+div.contenedor-main>.accordion {
+    background: #E70C8F;
+}
