@@ -201,3 +201,81 @@
         left: 100%;
     }
 }
+
+@import "../font/font.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin-top: 0px;
+    height: 100%;
+    width: 100vw;
+    border: 2px solid #E70C8F;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(48, 1, 25, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+    font-family: 'Sora', sans-serif;
+}
+
+.dropdown-menu {
+    border: 1px solid #E70C8F;
+}
+
+.dropdown-divider {
+    color: #E70C8F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.bg-01 {
+    background: black url(../images/bg02.svg);
+    background-repeat: repeat;
+}
+
+.menu {
+    background: rgb(246, 228, 235);
+}
+
+a:hover {
+    background-color: #ffafdf;
+}
+
+.apaBrand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #E70C8F;
+}
+
+.apaLink {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #E70C8F;
+    text-align: end;
+}
+
+.nLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #060004;
+}
+
+.apaColor {
+    color: #E70C8F;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
