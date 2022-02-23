@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style_ProductCart.css" />
+    <script src="https://kit.fontawesome.com/0c502158eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./public/css/styleReserves.css" />
+    <title>APA! RESERVAS</title>
+</head>
+
+<body class="bg-01">
+    <nav class="navbar fixed navbar-expand-lg navbar-light bg-light menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a><span class="apaBrand">APA!</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="nLink">HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="nLink">INDICA</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:">
+                            <span class="nLink">CLUB</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#"><span class="nLink">LOGIN</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><span class="nLink">NUEVOS SOCIOS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><span class="nLink">RESERVAS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- final NAV-->
+
+    <header>
+        <div class="container">
+            <div class="d-md-flex flex-md-equal w-100 my-md-6 ps-md-6">
+                <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                    <div class="my-3 py-3">
+                        <h2 class="display-5">RESERVA <span class="apaBrand">APA!</span></h2>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-danger">Left</button>
+                            <button type="button" class="btn btn-warning">Middle</button>
+                            <button type="button" class="btn btn-success">Right</button>
+                        </div>
+                    </div>
+                    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 320px; width: 100%; max-width: 300px; border-radius: 21px 21px 0 0; margin-bottom: 2.5rem;">
+                        <img src="images/promo_01.png" alt="reserva producto" class="img-thumbnail" style="max-height: 320px ; height:100%;" />
+                    </div>
+                </div>
+                <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">RESERVA <span class="color-apa">APA!</span></h2>
+                        <form>
+                            <p class=" form-iten ">
+                                <label for=" email " name=" usuario_email " placeholder=" dai@gmail.com ">Email</label>
+                                <input class=" email " type=" text " id=" email " name=" usuario_email " placeholder="nombre@email.com 
+                                <div class=" elem-grupo ">
+                                    <label for=" telefono ">Numero de telefono</label>
+                                    <input class=" telefono " type=" tel " id=" telefono " name=" usuario_telefono " placeholder=" 444-88-666 ">
+                            </p>
+                            <p class=" form-iten ">
+                                <div class=" elem-grupodos ">
+                                    <label for=" adulto ">Adultos</label>
+                                    <input class=" adulto " type=" numero " id=" adulto " name=" total_adultos " placeholder=" 2 " required>
+                            </p>
+                            <p class=" form-iten ">
+                                <label for=" checking-date ">Fecha de reserva</label>
+                                <input class=" check checking-date " type=" date " id=" checking-date " name=" checking " required>
+                            </p>
+                            <p class=" form-iten ">
+                                <label for=" sleccion-habit ">Habitaciones de preferencia</label>
+                                <select class=" selecthabit " name=" seleccion-habit " id=" sleccion-habit " required>
+                            </p>
+                            <option value=" ">Elige la habitacion</option>
+                            <option value=" especial ">Especial</option>
+                            <option value=" Spa ">Spa</option>
+                            <option value=" Spa confort ">Spa confort</option>
+                            </select>
+                                <div class=" btn-group " role=" group " ar\i
+                                \label=" Basic mixed styles example ">
+                                    <button type=" button " class=" btn btn-danger ">Left</button>
+                                    <button type=" button " class=" btn btn-warning ">Middle</button>
+                                    <button type=" button " class=" btn btn-success ">Right</button>
+                                </div>
+                        </form>
+                        <div class=" row mt-5 gx-3 ">
+                            <div class=" col-12 col-mg-4 " />
+                            <h2 text-muted ">DESCUENTO APA! 10% VALOR TURNO</h2>
+                                <p class=" mb-2 text-muted ">TURNO 4 HORAS</p>
+                                <p class=" mb-2 text-muted ">*en FECHA PRE-RESERVADA!</p>
+                    </div>
+                </div>
+                <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity=" sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin=" anonymous "></script>
+
+</html>
+</body>[]

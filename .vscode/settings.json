@@ -1,4 +1,4 @@
 {
-	"cSpell.language": "en,es-ES",
-	"svn.ignoreMissingSvnWarning": true
+	"colorWheel.settings.workspaceColor": "hsl(193,53%,52%)",
+	"livePreview.defaultPreviewPath": "/views/shop.html"
 }

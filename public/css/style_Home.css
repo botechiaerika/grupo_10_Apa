@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(115, 90, 255);
+    border: 2px groove gray
+}
+
+.bg-01 {
+    background-color: gray;
+    background: url('../images/protruding-squares.svg');
+    background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+.h101 {
+    background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1em;
+    background-position: 0 60%;
+    transition: background-size 0.25s ease-in;
+}
+
+.h101:hover {
+    background-size: 100% 88% !important;
+}
+
+.hero {
+    display: block;
+    color: whitesmoke;
+    background-color: #160351;
+    background-image: url('../images/bg01.jpg');
+    background-repeat: repeat;
+    border-radius: 15px;
+    margin: 5rem;
+    padding: auto;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    max-height: 800px;
+    height: 80vh;
+    width: 80vw;
+}
+
+.name {
+    height: 57px;
+}
+
+.apa-name {
+    color: color(srgb 1 0 0.777);
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    max-width: 340px;
+    width: 70%;
+    max-height: 500px;
+    height: auto;
+    image-rendering: auto;
+}
+
+.herod {
+    background-image: linear-gradient(120deg, #ec008c, #fc6767 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 90%;
+    transition: background-size 0.25s ease-in;
+    margin-bottom: 3rem;
+}
+
+.hero-d:hover {
+    background-size: 100% 88% !important;
+}
+
+.main {
+    margin: 20px;
+    background: #000000;
+    background-image: url(../image/protuding-squares.svg);
+    background-repeat: repeat;
+    margin: 5px solid #160351;
+    border-radius: 15px;
+}
+
+// Source mixins
+
+/*
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+// Usage
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}*/
+
+
+/* -------------------------FOOTER---------------- */
+
+.footer_area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    padding: 60px;
+    background-color: #d9eeec;
+}
+
+.footer_area .row {
+    margin-left: -25px;
+    margin-right: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #d9eeec;
+}
+
+.single-footer-widget {
+    position: relative;
+    z-index: 1;
+}
+
+.single-footer-widget .copywrite-text a {
+    color: #747794;
+    font-size: 1rem;
+}
+
+.single-footer-widget .widget-title {
+    margin-bottom: 1.5rem;
+}
+
+.single-footer-widget .footer_menu li a {
+    color: #747794;
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.single-footer-widget .footer_menu li a:hover,
+.single-footer-widget .footer_menu li a:focus {
+    color: #3f43fd;
+}
+
+.single-footer-widget .footer_menu li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer_social_area {
+    position: relative;
+    z-index: 1;
+}
+
+.footer_social_area a {
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    background-color: #f5f5ff;
+    line-height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.footer_social_area a i {
+    line-height: 36px;
+}
+
+.footer_social_area a:hover,
+.footer_social_area a:focus {
+    color: #ffffff;
+}
+
+@-webkit-keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@import "../font/font.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin-top: 0px;
+    height: 100%;
+    width: 100vw;
+    border: 2px solid #E70C8F;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(48, 1, 25, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+    font-family: 'Sora', sans-serif;
+}
+
+.dropdown-menu {
+    border: 1px solid #E70C8F;
+}
+
+.dropdown-divider {
+    color: #E70C8F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.bg-01 {
+    background: black url(../images/bg02.svg);
+    background-repeat: repeat;
+}
+
+.menu {
+    background: rgb(246, 228, 235);
+}
+
+a:hover {
+    background-color: #ffafdf;
+}
+
+.apaBrand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #E70C8F;
+}
+
+.apaLink {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #E70C8F;
+    text-align: end;
+}
+
+.nLink {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #060004;
+}
+
+.apaColor {
+    color: #E70C8F;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
