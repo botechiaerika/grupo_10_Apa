@@ -4,8 +4,7 @@ El projecto APA se inicia como una ideia desarollada en el curso de desarollo we
 
 ## Integrantes
 ### *Rocio Suarez*
-> Estudiante de programación. Por medio de la programación vi una forma de profundizar ideas asociadas con temas artísticos, haciendo de esto una oportunidad de negocio, pocas personas hacen esto en esta área. Iniciando así el aprendizaje en un curso de frontend pero para el mundo competitivo siempre se requiere más, por lo que empecé full-stack y para estar apta para el mercado._
-
+> Estudiante de programación. Por medio de la programación vi una forma de profundizar ideas de negocio. 
 ### *Erika Botechia*
 > Estudiante de medicina entusiasta del código, aprendiendo programación para arriesgarme para aplicar ideas que pueden ayudar en el mundo de las personas.  
 ---
