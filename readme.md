@@ -38,29 +38,30 @@ ___Brinda contestar preguntas___
 ---
 ## Branding APA
 ---
-___Luego conocer a la facilidad de APP de reservas en diversas ramas identificamos la carencia de una APP eficiente identificamos la carencia de una eficiente que concluya de forma eficiente y logrando abarcar todas expectativas de un usuario que usa la APP por lo que surge APA para facilitar el placer diversión donde usuario solo tenga que concentrarse en esto sufrir STRESS para planear su momento de felicidad___
+___Luego conocer a la facilidad de APP de reservas en diversas ramas, identificamos la carencia de una APP eficiente. Queriendo abarcar todas expectativas de un usuario que use la APP. Por lo que surge APA, para facilitar el placer de diversión y en donde los usuarios,tengan accesibilidad y usabilidad para planear su momento de felicidad___
 
 Banner + Logo Proyecto:
 ![Banner projecto APA](img/i01_bannerAPAmd.png)
 
 #### a) **Creación del Nombre:** 
-Luego de pesquisar los nombres disponibles del mercado Argentino listados en la sección a seguir llegamos finalmente al nombre APA! que al hacer la referencia a una expresión popular entre todos Argentinos usamos la exclamación que refuerza el sentido de sorpresa positiva que buscamos en la experiencia del usuario con el portal además de la curiosidad que despierta y hace con que nuevos usuarios ingresen a pagina, mas allá de esto al usar un nombre que NO es estrictamente asociado al ramo principal podemos lograr 2 puntos positivos: 
-- **PUNTO 01:** APA! es Discreto y Eficiente causando la curiosidad sin exponer usuarios en cuanto a búsquedas recientes
-- **PUNTO 02:** Futura expansión del projecto a otras áreas del entretenimiento que pueden relacionarse con las actividades que usuarios hacen previamente en algunos contextos, como bares, restaurantes, boliches, sex shop entre otros.
+Luego de pesquisar los nombres disponibles del mercado Argentino listados en la sección a seguir llegamos finalmente al nombre APA! que al hacer la referencia a una expresión popular entre todos Argentinos usamos la exclamación que refuerza el sentido de sorpresa positiva que buscamos en la experiencia del usuario. 
+Con el portal, además de la curiosidad que despierta, hace con que nuevos usuarios ingresen a pagina, ademas de esto al usar un nombre que NO es estrictamente asociado a la rama principal, podemos lograr 2 puntos positivos: 
+- **PUNTO 01:** APA! es Discreto y Eficiente causando la curiosidad sin exponer a los usuarios en cuanto a las búsquedas recientes.
+- **PUNTO 02:** Futura expansión del projecto a otras áreas del entretenimiento que pueden relacionarse con las actividades que los usuarios, hacen previamente en algunos contextos, como bares, restaurantes, boliches, sex shop entre otros.
 
 ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
-> Seran anexados en SPRINT #02 en este nos preocupamos fundalmentalmente en analizar mercado y desarollar un mockup con facil usabilidad y agradavel al usuario
+> Seran anexados en SPRINT #02 en este nos preocupamos fundalmentalmente en analizar mercado y desarollar un mockup con facil usabilidad y agrada a el al usuario
 #### c) **Mercado Potencial :memo:** 
-**Espacio de Actuacion:** Publico entre 18 y 35 años que ademas de que estes son el publico conectado
-**Publico Blanco:** Publico entre 18 y 35 años que ademas del la edad es el rango que esta estrictamente asociado **REDES SOCIALES + TECNOLOGIA** la descripcion del publico llega a 
-**Experiencia del usuario** Publico entre 18 y 35 años
+**Espacio de Actuacion:** Publico entre 18 y 35 años, que mediante incluso otras apps pueden conocerse entre si.
+**Publico Blanco:** Publico entre 18 y 35 años que ademas de la edad es el rango que esta estrictamente asociado **REDES SOCIALES + TECNOLOGIA** . 
+**Experiencia del usuario** Publico entre 18 y 35 años.
 
 
 |**Publico**|**Opnion en la Pesquisa**|
 |-|-|
-|![Avatar Pareja](img/i02_Avatar01.png)|**Pareja Joven 22 años** <br/>Estudian en una facultad pública de letras, y sus compañeros de facultad suelen ir con sus parejas a un hotel cercano en balvanera. Y si no recurren a los que están por la zona de su barrio.|
+|![Avatar Pareja](img/i02_Avatar01.png)|**Pareja Joven 22 años** <br/>Estudian en la facultad pública de economicas, y sus compañeros de facultad suelen ir con sus parejas a un hotel cercano en balvanera. Y si no recurren a los que están por la zona de su barrio.|
 | ![Avatar Mujer](img/i03_Avatar02.png)|**Mujer  - 26 años**</br>Trabaja como asesora comercial en una marca de indumentaria, y los fines de semana, sale con un amigo y de regreso, descansan en un hotel cercano a su casa,  donde ellos disfrutan y ya conocen al recepcionista, del hotel. |
-| ![Avaar Pareja Anonima](img/i04_Avatar03.png)|**Hombre - (32 años )** <br/> Trabaja en el área de servicios en un órgano público, y hace más de un año sale con su novia y quieren descansar en nuevos lugares que no conocen y hacer un recorrido, lo hacen hace más de tres meses y están muy satisfechos. |
+| ![Avaar Pareja Anonima](img/i04_Avatar03.png)|**Hombre - (32 años )** <br/> Trabaja en el área de servicios en un órgano público, y hace más de un año sale con su novia y quieren descansar en nuevos lugares que no conocen y hacer un recorrido, lo hacen, hace más de tres meses y están muy satisfechos. |
 
 
 
@@ -85,7 +86,7 @@ ___NOTA - TIPOGRAFIA, PALETA COLORES y LOGO FINAL___
 **Conclusion de links de Mercado**
 El servicio ofrecido es descansar con tu pareja en un hotel por una noche. Cada servicio ofrece distintas temáticas en sus habitaciones según la insignia que cada hotel elige para la comodidad y confort  de sus clientes y al tipo de público que el hotel apunta.
 La estética que presenta es una temática, según la especialidad de cada hotel.
-Sus funcionalidades dependen del valor y categoría del hotel. Cada hotel tiene un confort de calidad, según su categoría, diferencial, ofrecido para el cliente, que se ve reflejado en el costo de la habitación y del propio hotel.
+Sus funcionalidades dependen del valor y categoría del hotel. Cada hotel tiene un confort de calidad, según su categoría, diferencial, ofrecido para el cliente, que se ve reflejado en el costo de la habitación u del propio uso de los adicionales del hotel.
 
 
 #### c) **MISION APA :blue_heart: !** 
