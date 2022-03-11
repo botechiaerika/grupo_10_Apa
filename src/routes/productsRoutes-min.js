@@ -1,0 +1,1 @@
+const productsControllers=require("./../controllers/productsControllers.js"),express=require("express"),router=express.Router();router.get("/",productsControllers.landingProductos),router.get("/detalles",productsControllers.productDetails),module.exports=router;

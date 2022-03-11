@@ -1,0 +1,1 @@
+let controller={indexPage:(e,r)=>{r.render("index",{title:"APA"})},landingUser:(e,r)=>{r.render("users/landingpageUser",{title:"HOME"})},crearCuenta:(e,r)=>{r.render("users/cadastroUsuarios",{title:"CUENTA"})}};module.exports=controller;
