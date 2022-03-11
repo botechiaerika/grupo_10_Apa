@@ -1,0 +1,1 @@
+const mainController=require("./../controllers/mainControllers.js"),express=require("express"),router=express.Router();router.get("/",mainController.indexPage),router.get("/home",mainController.landingUser),router.get("/usuarios/crearCuenta",mainController.crearCuenta),module.exports=router;
